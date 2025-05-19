@@ -73,7 +73,13 @@
 @media screen and (max-width : 650px) {
     .classified p strong{font-size: 1rem;}
     .classified h2{font-size: 1.1rem;}
-
+    .history-photo img{
+        transform: scale(1.5);
+        margin-top: 60px;
+    }
+    .muchhistory{
+        display: none;
+    }
 }
 
 @media screen and (max-width : 580px) {
@@ -87,5 +93,14 @@
         margin: 0 auto;
     }
     .classified h2{display: none;}
+}
+@media screen and (max-width : 400px) {
+    html{
+        font-size: 8px;
+    }
+        .history-photo img{
+        transform: scale(2);
+        margin-top: 40px;
+    }
 }
 
