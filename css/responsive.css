@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+@media screen and (max-width : 1695px) {
+    .sdoor video{
+        object-fit: cover;
+    }
+    .doorplay video{
+        object-fit: cover;
+    }
+    
+}
+@media screen and (max-width : 1370px){
+    html{font-size: 14px;}
+    header nav ul li span{font-size: 1.5rem;}
+    .history-photo img{
+        margin-top: 30px;
+    }
+        .history-photo img:first-child{
+        margin-top: 50px;
+    }
+        .history-photo img:last-child{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width : 1230px) {
+    html{font-size: 12px;}
+    header nav ul li span{font-size: 1.5rem;}
+
+}
+@media screen and (max-width : 1096px) {
+    html{font-size: 10px;}
+    header nav ul li span{font-size: 1.8rem;}
+        .history-photo img{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width : 970px) {
+    html{font-size: 10px;}
+    header nav ul li span{font-size: 1.9rem;}
+    .upaddress p strong{font-size: 1.5rem;}
+    .statuswrap strong {font-size: 1.1rem;}
+    .midside{flex-direction: column;}
+    .midprofile{width: 100%;}
+    .midphoto{
+        width: 90%;
+        margin: 10% auto;
+    }
+    .namewrap{flex-direction: row;}
+    .upstatus{flex-direction: row;}
+    .statuswrap{
+        width: 60%;
+        align-items: start;
+    }
+    .upmark{display: none;}
+}
+@media screen and (max-width : 890px) {
+    .classified h2{font-size: 1.6rem;}
+    .classified p strong{font-size: 1.5rem;}
+    .upaddress p strong{font-size: 1.3rem;}
+    .statuswrap strong {font-size: 1rem;}
+    .upname p strong{font-size: 1.3rem;}
+    .popup .txt p{font-size: 1.2rem;}
+}
+@media screen and (max-width : 760px) {
+    .classified h2{font-size: 1.6rem;}
+    .classified p strong{font-size: 1.2rem;}
+    .upaddress p strong{font-size: 1rem;}
+    .upname p strong{font-size: 1.2rem;}
+    .statuswrap strong {font-size: 1rem;}
+    .popup .txt p{font-size: 1rem;
+        width: 30%;}
+}
+@media screen and (max-width : 650px) {
+    .classified p strong{font-size: 1rem;}
+    .classified h2{font-size: 1.1rem;}
+
+}
+
+@media screen and (max-width : 580px) {
+    .classified p {font-size: .7rem;}
+    .classified h2{font-size: .7rem;}
+}
+@media screen and (max-width : 500px) {
+    .classified p {
+        font-size: 1rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .classified h2{display: none;}
+}
+
