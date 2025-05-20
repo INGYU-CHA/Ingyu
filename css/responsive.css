@@ -7,7 +7,7 @@
     .doorplay video{
         object-fit: cover;
     }
-    
+
 }
 @media screen and (max-width : 1370px){
     html{font-size: 14px;}
@@ -21,6 +21,9 @@
         .history-photo img:last-child{
         margin-top: 50px;
     }
+    .thumbnails,.thumbnails2{
+        left: 6vh;
+    }
 }
 @media screen and (max-width : 1230px) {
     html{font-size: 12px;}
@@ -32,6 +35,9 @@
     header nav ul li span{font-size: 1.8rem;}
         .history-photo img{
         margin-top: 10px;
+    }
+    .popup .popvid figure video{
+        object-fit: contain;
     }
 }
 @media screen and (max-width : 970px) {
@@ -60,6 +66,9 @@
     .statuswrap strong {font-size: 1rem;}
     .upname p strong{font-size: 1.3rem;}
     .popup .txt p{font-size: 1.2rem;}
+    .thumbnails,.thumbnails2{
+        left: 4vh;
+    }
 }
 @media screen and (max-width : 760px) {
     .classified h2{font-size: 1.6rem;}
@@ -80,11 +89,17 @@
     .muchhistory{
         display: none;
     }
+    .barcord{
+        display: none;
+    }
 }
 
 @media screen and (max-width : 580px) {
     .classified p {font-size: .7rem;}
     .classified h2{font-size: .7rem;}
+    .thumbnails,.thumbnails2{
+        left: 2vh;
+    }
 }
 @media screen and (max-width : 500px) {
     .classified p {
@@ -94,6 +109,14 @@
     }
     .classified h2{display: none;}
 }
+@media screen and (max-width : 460px) {
+    .upperside{
+        flex-direction: row;
+    }
+    .thumbnails,.thumbnails2{
+        left: 0vh;
+    }
+}
 @media screen and (max-width : 400px) {
     html{
         font-size: 8px;
@@ -102,5 +125,9 @@
         transform: scale(2);
         margin-top: 40px;
     }
+    /* .namewrap, .namestatus{
+        padding: 0;
+    } */
+
 }
 

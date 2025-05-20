@@ -225,9 +225,7 @@ header nav ul li p:active{
     background-color: transparent;
     display: flex;
     justify-content: center;
-    gap: 50px;
-    top: 95vh; left: 0;
-    margin-left: 5%;
+    top: 95vh; left: 9vh;
     opacity: 0;
     transition: all 0.5s ease-in-out;
 }
@@ -351,6 +349,8 @@ h1{
     height: 20%;
     background-color: rgba(33, 33, 33, 0.8);
     margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .namewrap{
@@ -359,7 +359,7 @@ h1{
     justify-content: space-around;
     align-items: start;
     color: white;
-    flex: 2;
+    flex: 1;
     padding: 20px;
 }
 
@@ -373,7 +373,7 @@ h1{
     /* background-color: #000; */
     width: 30%;
     margin: 0 auto;
-    flex: 2;
+    flex: 1;
 }
 .upmark img {
     width: 100%;
@@ -386,7 +386,7 @@ h1{
     justify-content: space-around;
     align-items: center;
     color: white;
-    flex: 2;
+    flex: 1;
     height: 100%;
     padding: 20px;
     width: 100%;

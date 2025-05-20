@@ -149,7 +149,7 @@ $(function(){
                     if ($.contains($videoFigure[0], $aboutMeSection[0])) {
                          $aboutMeSection.appendTo($('.mainpop > .container'));
                     }
-                    $aboutMeSection.hide(); // 정리할 때는 다시 .hide()로 인라인 display:none 설정
+                    $aboutMeSection.hide();
                     console.log("About Me section hidden.");
                     isAboutMeInVideoArea = false;
                     console.log("isAboutMeInVideoArea set to false.");
